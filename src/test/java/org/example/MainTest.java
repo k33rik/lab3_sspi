@@ -1,14 +1,12 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class MainTest {
+class MainTest {
 
     @Test
     void testSum() {
-        int result = 1 + 1;
-        assertEquals(2, result);
+        assertEquals(2, 1 + 1);
     }
-
 }
