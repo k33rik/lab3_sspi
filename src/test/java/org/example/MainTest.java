@@ -6,7 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
-    void testSum() {
+    void simpleTest() {
         assertEquals(2, 1 + 1);
     }
+
 }
